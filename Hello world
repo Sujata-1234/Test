@@ -1,0 +1,28 @@
+
+public class HelloProgram
+{
+	public void m1()
+	{
+		System.out.println("It is 1st method ");
+	}
+    public void m2()
+    {
+        System.out.println("It is 2nd method");	
+    }
+    public void m3()
+    {
+    	System.out.println("It is 3rd method");
+    }
+    public static void main(String args[])
+    {
+    	
+    System.out.println("Hai");
+    
+    	HelloProgram z=new HelloProgram();
+    	z.m1();
+    	z.m2();
+        z.m3();
+    }
+    
+    
+ }
